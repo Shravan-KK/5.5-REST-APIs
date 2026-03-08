@@ -28,6 +28,11 @@ node index.js
 # or, if a start script exists
 npm start
 ```
+To successfully run this application locally, you must provide a valid Bearer token for the Secrets API.
+
+   1. Open the index.js file.
+   2. Locate the yourBearerToken variable.
+   3. Replace the placeholder string with your active token.
 
 Then open the API endpoints in your browser or use a tool like `curl` or Postman.
 
